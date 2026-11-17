@@ -1744,3 +1744,20 @@ body.loaded .navbar {
   transform: translateX(-50%) translateY(0);
   opacity: 1;
 }
+
+@media (max-width: 768px) {
+    .about-layout,
+    .about-art {
+        overflow: visible;
+    }
+
+    .about-art {
+        position: relative;
+        z-index: 1;
+    }
+
+    .about-content {
+        position: relative;
+        z-index: 2;
+    }
+}
